@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "agent_id": "agent-alpha",
+      "declaration_ids": [
+        "dec-weather"
+      ],
+      "id": "tool-reserve",
+      "maximum_permission": "user_data",
+      "operation": "reserve-itinerary",
+      "requires_confirmation": true,
+      "writes_audit_record": true
+    }
+  ],
+  "schema_version": "2.0"
+}

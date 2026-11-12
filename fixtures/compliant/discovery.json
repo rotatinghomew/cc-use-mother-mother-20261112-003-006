@@ -1,0 +1,14 @@
+{
+  "items": [
+    {
+      "agent_id": "agent-alpha",
+      "audiences": [
+        "device-owner"
+      ],
+      "channel": "device-catalog",
+      "discoverable": true,
+      "id": "discover-alpha"
+    }
+  ],
+  "schema_version": "2.0"
+}

@@ -1,0 +1,23 @@
+{
+  "items": [
+    {
+      "agent_id": "agent-alpha",
+      "completion_report_required": true,
+      "evidence_ids": [
+        "ev-ota"
+      ],
+      "from_version": "1.0.0",
+      "id": "ota-202611",
+      "impact_assessment": {
+        "capabilities": "reviewed",
+        "evidence": "reviewed",
+        "identity": "reviewed",
+        "permissions": "reviewed",
+        "rollback": "defined"
+      },
+      "scheme_submitted": true,
+      "to_version": "1.1.0"
+    }
+  ],
+  "schema_version": "2.0"
+}

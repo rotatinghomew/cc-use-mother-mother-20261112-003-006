@@ -1,0 +1,138 @@
+{
+  "items": [
+    {
+      "fingerprint": "f8317ddecaa34367cbb61a702a772ada443789c20a3ebe89ea7bf96959992336",
+      "id": "identities:agent-alpha",
+      "kind": "identities",
+      "snapshot": {
+        "evidence_ids": [
+          "ev-identity"
+        ],
+        "id": "agent-alpha",
+        "product": "Northwind Assistant Phone",
+        "status": "active",
+        "unique_code": "AGT-ALPHA0001",
+        "vendor": "Northwind Devices"
+      },
+      "subject_id": "agent-alpha"
+    },
+    {
+      "fingerprint": "63d06113b43e64a357c04e7f7160361960b82c71b8ee807b0b97f3023509eb3a",
+      "id": "descriptions:desc-alpha",
+      "kind": "descriptions",
+      "snapshot": {
+        "agent_id": "agent-alpha",
+        "data_destinations": [
+          "local-device",
+          "declared-third-party:app-weather"
+        ],
+        "display_name": "Northwind Travel Assistant",
+        "id": "desc-alpha",
+        "owner": "team:assistant-compliance",
+        "purpose": "Coordinates user-confirmed travel reservations and records each external application handoff."
+      },
+      "subject_id": "desc-alpha"
+    },
+    {
+      "fingerprint": "8da0dcb409344d4e90590bfc34f02745981a8dc99475cf0e70a99fa504493ffe",
+      "id": "discovery:discover-alpha",
+      "kind": "discovery",
+      "snapshot": {
+        "agent_id": "agent-alpha",
+        "audiences": [
+          "device-owner"
+        ],
+        "channel": "device-catalog",
+        "discoverable": true,
+        "id": "discover-alpha"
+      },
+      "subject_id": "discover-alpha"
+    },
+    {
+      "fingerprint": "644000520b8370a4faf30346e6ef07c96ff4fd1f90d5cb2639430e73b93ac134",
+      "id": "interactions:cap-reserve",
+      "kind": "interactions",
+      "snapshot": {
+        "agent_id": "agent-alpha",
+        "approval_required": true,
+        "audit_required": true,
+        "category": "tool_call",
+        "evidence_ids": [
+          "ev-cap-auth",
+          "ev-cap-audit"
+        ],
+        "id": "cap-reserve",
+        "operation": "reserve-itinerary",
+        "permission": "user_data",
+        "tool_ids": [
+          "tool-reserve"
+        ]
+      },
+      "subject_id": "cap-reserve"
+    },
+    {
+      "fingerprint": "984d26a411997da9e5ef41f72c2fc648deaa153ff32fa0053da704128b3aa19c",
+      "id": "tools:tool-reserve",
+      "kind": "tools",
+      "snapshot": {
+        "agent_id": "agent-alpha",
+        "declaration_ids": [
+          "dec-weather"
+        ],
+        "id": "tool-reserve",
+        "maximum_permission": "user_data",
+        "operation": "reserve-itinerary",
+        "requires_confirmation": true,
+        "writes_audit_record": true
+      },
+      "subject_id": "tool-reserve"
+    },
+    {
+      "fingerprint": "96f554bf13766a2efceb7e2b5af9dc5e316f1baf1b322fcaf57dff676fd724d4",
+      "id": "ota_plan:ota-202611",
+      "kind": "ota_plan",
+      "snapshot": {
+        "agent_id": "agent-alpha",
+        "completion_report_required": true,
+        "evidence_ids": [
+          "ev-ota"
+        ],
+        "from_version": "1.0.0",
+        "id": "ota-202611",
+        "impact_assessment": {
+          "capabilities": "reviewed",
+          "evidence": "reviewed",
+          "identity": "reviewed",
+          "permissions": "reviewed",
+          "rollback": "defined"
+        },
+        "scheme_submitted": true,
+        "to_version": "1.1.0"
+      },
+      "subject_id": "ota-202611"
+    },
+    {
+      "fingerprint": "1766e07e342a1e10314fd75b62acd50c3ccd2ee65db9977fde68fda83aac479b",
+      "id": "declarations:dec-weather",
+      "kind": "declarations",
+      "snapshot": {
+        "agent_id": "agent-alpha",
+        "application_id": "app-weather",
+        "consent": true,
+        "evidence_ids": [
+          "ev-declaration"
+        ],
+        "id": "dec-weather",
+        "payload_digest": "3cf3e50ed77aea37f31f1f3dc0c14910ad7aeadf6dd0231680eab7fca8f16118",
+        "signature": "ceaa5bfc27dff9da7eb5238eb60d40a0861040f6f5816197855a3c32796e189c",
+        "signature_algorithm": "hmac-sha256",
+        "signer": "vendor-release-key",
+        "tool_ids": [
+          "tool-reserve"
+        ]
+      },
+      "subject_id": "dec-weather"
+    }
+  ],
+  "schema_version": "2.0"
+}

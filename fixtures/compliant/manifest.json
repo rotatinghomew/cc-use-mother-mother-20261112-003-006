@@ -1,0 +1,66 @@
+{
+  "bundle_id": "AGB-NORTHWIND-202611",
+  "documents": [
+    {
+      "kind": "baseline",
+      "path": "baseline.json",
+      "sha256": "c6b8972c5a13e52df05ee338c2a4ccfee276c20e4480d5218738666d6f88bfef",
+      "version": "2.0"
+    },
+    {
+      "kind": "declarations",
+      "path": "declarations.json",
+      "sha256": "cae7b72dd24f385e1a601030fb4ada7b56c9d2037a69ab1100446407249db822",
+      "version": "2.0"
+    },
+    {
+      "kind": "descriptions",
+      "path": "descriptions.json",
+      "sha256": "008144fb41ec553f9c921409a8500e2f7ec9d64a226dea93a4fda463020bc79a",
+      "version": "2.0"
+    },
+    {
+      "kind": "discovery",
+      "path": "discovery.json",
+      "sha256": "4dbca886c34683bdb04f2c5cb26afd7bdaa9afc9c62649c56ed73283f4455aea",
+      "version": "2.0"
+    },
+    {
+      "kind": "evidence",
+      "path": "evidence.json",
+      "sha256": "b2013145ed4f233c4de250134843150600aff24d6fe0d395096133dc49eabeea",
+      "version": "2.0"
+    },
+    {
+      "kind": "identities",
+      "path": "identities.json",
+      "sha256": "e5b70a2e9353a9b5470707a905db06d6f3a5e43fe0a833aaf51553373fb95a06",
+      "version": "2.0"
+    },
+    {
+      "kind": "interactions",
+      "path": "interactions.json",
+      "sha256": "79201f1e6f0df6280e5f1e52e10fbc445739db99be0c91b8642a54037fb91f53",
+      "version": "2.0"
+    },
+    {
+      "kind": "ota_plan",
+      "path": "ota-plan.json",
+      "sha256": "99d15b1c2f3844523a0974587739b111979664df61bf0b9c7da869456c090372",
+      "version": "2.0"
+    },
+    {
+      "kind": "tools",
+      "path": "tools.json",
+      "sha256": "b7721a507f1cd70a85b0c21ef7be131dd9b62b9fe4fffa096871b9724529b7bf",
+      "version": "2.0"
+    }
+  ],
+  "local_trust_keys": {
+    "vendor-release-key": "local-demo-signing-key"
+  },
+  "revision": "r1",
+  "runtime_policy": "static-review-only",
+  "schema_version": "2.0",
+  "submitted_at": "2026-11-01T08:00:00+00:00"
+}

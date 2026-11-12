@@ -1,0 +1,21 @@
+{
+  "items": [
+    {
+      "agent_id": "agent-alpha",
+      "approval_required": true,
+      "audit_required": true,
+      "category": "tool_call",
+      "evidence_ids": [
+        "ev-cap-auth",
+        "ev-cap-audit"
+      ],
+      "id": "cap-reserve",
+      "operation": "reserve-itinerary",
+      "permission": "user_data",
+      "tool_ids": [
+        "tool-reserve"
+      ]
+    }
+  ],
+  "schema_version": "2.0"
+}

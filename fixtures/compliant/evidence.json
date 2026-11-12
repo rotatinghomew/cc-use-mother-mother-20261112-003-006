@@ -1,0 +1,55 @@
+{
+  "items": [
+    {
+      "artifact_digest": "a30ce81ee7f9eb2abaea57f1dd0a1ba73d001546507546feba612e8fa959e9dc",
+      "assertion": "authorization_controls",
+      "executed_at": "2026-11-01T08:00:00+00:00",
+      "id": "ev-cap-auth",
+      "result": "pass",
+      "subject_id": "cap-reserve",
+      "subject_kind": "interactions",
+      "type": "control-test"
+    },
+    {
+      "artifact_digest": "2b80b706e47efe169bc29666ef4140a7cc37d7e4392bc0b4d62319680b643b57",
+      "assertion": "audit_record_created",
+      "executed_at": "2026-11-01T08:00:00+00:00",
+      "id": "ev-cap-audit",
+      "result": "pass",
+      "subject_id": "cap-reserve",
+      "subject_kind": "interactions",
+      "type": "log-proof"
+    },
+    {
+      "artifact_digest": "6e23aeec63bf090a710822978e614d823bee9173da74e83389cf69c78a357f91",
+      "assertion": "unique_code_registered",
+      "executed_at": "2026-11-01T08:00:00+00:00",
+      "id": "ev-identity",
+      "result": "pass",
+      "subject_id": "agent-alpha",
+      "subject_kind": "identities",
+      "type": "registry-check"
+    },
+    {
+      "artifact_digest": "15b28fbefb0c5f96c486c86cabe27130aef8ac4aeb916296283001f80c1cb4fa",
+      "assertion": "signature_verified",
+      "executed_at": "2026-11-01T08:00:00+00:00",
+      "id": "ev-declaration",
+      "result": "pass",
+      "subject_id": "dec-weather",
+      "subject_kind": "declarations",
+      "type": "signature-check"
+    },
+    {
+      "artifact_digest": "3066a8fcc36b1ec66cff28237ce13a93a8085609366bb8ae1066117d81a68969",
+      "assertion": "impact_assessment_reviewed",
+      "executed_at": "2026-11-01T08:00:00+00:00",
+      "id": "ev-ota",
+      "result": "pass",
+      "subject_id": "ota-202611",
+      "subject_kind": "ota_plan",
+      "type": "review-record"
+    }
+  ],
+  "schema_version": "2.0"
+}

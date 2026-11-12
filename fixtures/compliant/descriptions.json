@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "agent_id": "agent-alpha",
+      "data_destinations": [
+        "local-device",
+        "declared-third-party:app-weather"
+      ],
+      "display_name": "Northwind Travel Assistant",
+      "id": "desc-alpha",
+      "owner": "team:assistant-compliance",
+      "purpose": "Coordinates user-confirmed travel reservations and records each external application handoff."
+    }
+  ],
+  "schema_version": "2.0"
+}

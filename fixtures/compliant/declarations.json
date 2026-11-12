@@ -1,0 +1,21 @@
+{
+  "items": [
+    {
+      "agent_id": "agent-alpha",
+      "application_id": "app-weather",
+      "consent": true,
+      "evidence_ids": [
+        "ev-declaration"
+      ],
+      "id": "dec-weather",
+      "payload_digest": "3cf3e50ed77aea37f31f1f3dc0c14910ad7aeadf6dd0231680eab7fca8f16118",
+      "signature": "ceaa5bfc27dff9da7eb5238eb60d40a0861040f6f5816197855a3c32796e189c",
+      "signature_algorithm": "hmac-sha256",
+      "signer": "vendor-release-key",
+      "tool_ids": [
+        "tool-reserve"
+      ]
+    }
+  ],
+  "schema_version": "2.0"
+}

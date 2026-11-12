@@ -1,0 +1,15 @@
+{
+  "items": [
+    {
+      "evidence_ids": [
+        "ev-identity"
+      ],
+      "id": "agent-alpha",
+      "product": "Northwind Assistant Phone",
+      "status": "active",
+      "unique_code": "AGT-ALPHA0001",
+      "vendor": "Northwind Devices"
+    }
+  ],
+  "schema_version": "2.0"
+}
